@@ -1,0 +1,23 @@
+{
+  "name": "cypress-test-tasks",
+  "version": "1.0.0",
+  "description": "Package for test tasks",
+  "main": "spec.cy.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IOneStarI/Cypress_test_Vlad-Didkovskiy"
+  },
+  "author": "Vlad Didkovskiy",
+  "license": "MIT",
+  "dependencies": {
+    "npm-run-all": "^4.1.2",
+    "serve": "11.3.0"
+  },
+  "engines": {
+    "node": "^14.0.0 || ^16.0.0 || >=18.0.0"
+  }
+}
